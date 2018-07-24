@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #3498db;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -46,11 +46,12 @@
             }
 
             .title {
-                font-size: 84px;
+                color: #fff;
+                font-size: 50px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #fff;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -74,12 +75,14 @@
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
+                    <hr>
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <h2>Think Twice</h2>
+                    <h1><b>CODE ONCE</b></h1>
                 </div>
 
                 <div class="links">
