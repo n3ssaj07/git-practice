@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #3498db;
-                color: #636b6f;
+                background-color: #FF5252;
+                color: #D1C4E9;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -46,12 +46,11 @@
             }
 
             .title {
-                color: #fff;
-                font-size: 50px;
+                font-size: 84px;
             }
 
             .links > a {
-                color: #fff;
+                color: #64B5F6;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -75,14 +74,14 @@
                         <a href="{{ route('login') }}">Login</a>
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
-                    <hr>
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h2>Think Twice</h2>
-                    <h1><b>CODE ONCE</b></h1>
+                    Laravel
+                        <h2>Work Easy</h2>
+                        <h3>CODE SMART</h3>
                 </div>
 
                 <div class="links">
@@ -95,4 +94,7 @@
             </div>
         </div>
     </body>
+                <footer>
+                    <p>Powered by: {{Vanesa Matienzo}}</p>
+                </footer>
 </html>
